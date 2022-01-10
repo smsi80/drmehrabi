@@ -479,6 +479,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.5rem;
 }
 
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -533,6 +541,36 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#2C363F\]{
   --tw-bg-opacity: 1;
   background-color: rgb(44 54 63 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-r{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-cyan-500{
+  --tw-gradient-from: #06b6d4;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(6 182 212 / 0));
+}
+
+.from-\[\#6ee7b7\]{
+  --tw-gradient-from: #6ee7b7;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(110 231 183 / 0));
+}
+
+.via-\[\#3b82f6\]{
+  --tw-gradient-stops: var(--tw-gradient-from), #3b82f6, var(--tw-gradient-to, rgb(59 130 246 / 0));
+}
+
+.to-blue-500{
+  --tw-gradient-to: #3b82f6;
+}
+
+.to-\[\#3b82f6\]{
+  --tw-gradient-to: #3b82f6;
+}
+
+.to-\[\#9333ea\]{
+  --tw-gradient-to: #9333ea;
 }
 
 .px-6{
@@ -592,6 +630,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[\#084859\]{
   --tw-text-opacity: 1;
   color: rgb(8 72 89 / var(--tw-text-opacity));
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 html {
