@@ -470,28 +470,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.row-span-full{
-  grid-row: 1 / -1;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-\[-100px\]{
-  margin-top: -100px;
-  margin-bottom: -100px;
-}
-
-.my-\[-1000px\]{
-  margin-top: -1000px;
-  margin-bottom: -1000px;
-}
-
-.my-\[-500px\]{
-  margin-top: -500px;
-  margin-bottom: -500px;
 }
 
 .mb-10{
@@ -506,10 +487,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-.mb-96{
-  margin-bottom: 24rem;
-}
-
 .inline-block{
   display: inline-block;
 }
@@ -522,62 +499,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
-.h-28{
-  height: 7rem;
-}
-
-.h-auto{
-  height: auto;
-}
-
-.h-96{
-  height: 24rem;
-}
-
-.h-\[10rem\]{
-  height: 10rem;
-}
-
-.h-\[100rem\]{
-  height: 100rem;
-}
-
-.h-\[50rem\]{
-  height: 50rem;
-}
-
-.h-\[40rem\]{
-  height: 40rem;
-}
-
-.h-\[30rem\]{
-  height: 30rem;
-}
-
 .h-\[20rem\]{
   height: 20rem;
 }
 
 .w-screen{
   width: 100vw;
-}
-
-.w-min{
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-}
-
-.w-\[10rem\]{
-  width: 10rem;
-}
-
-.w-\[20\]{
-  width: 20;
-}
-
-.w-\[20rem\]{
-  width: 20rem;
 }
 
 .w-\[30rem\]{
@@ -592,10 +519,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-content: flex-start;
 }
 
-.items-start{
-  align-items: flex-start;
-}
-
 .items-center{
   align-items: center;
 }
@@ -604,17 +527,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
 .gap-x-4{
   -moz-column-gap: 1rem;
        column-gap: 1rem;
-}
-
-.gap-y-4{
-  row-gap: 1rem;
 }
 
 .rounded-full{
@@ -743,15 +658,6 @@ html {
     grid-column: 1 / -1;
   }
 
-  .md\:row-span-full{
-    grid-row: 1 / -1;
-  }
-
-  .md\:my-\[-20rem\]{
-    margin-top: -20rem;
-    margin-bottom: -20rem;
-  }
-
   .md\:ml-10{
     margin-left: 2.5rem;
   }
@@ -764,32 +670,8 @@ html {
     margin-bottom: 0px;
   }
 
-  .md\:mb-96{
-    margin-bottom: 24rem;
-  }
-
-  .md\:mb-\[-100px\]{
-    margin-bottom: -100px;
-  }
-
-  .md\:mb-\[-400px\]{
-    margin-bottom: -400px;
-  }
-
-  .md\:mt-\[-100px\]{
-    margin-top: -100px;
-  }
-
-  .md\:mt-\[-30rem\]{
-    margin-top: -30rem;
-  }
-
   .md\:mt-\[-10rem\]{
     margin-top: -10rem;
-  }
-
-  .md\:mt-\[-20rem\]{
-    margin-top: -20rem;
   }
 
   .md\:grid{
@@ -808,14 +690,6 @@ html {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-\[30rem_30rem\]{
-    grid-template-columns: 30rem 30rem;
-  }
-
   .md\:grid-rows-1{
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
@@ -830,14 +704,6 @@ html {
 
   .md\:flex-row-reverse{
     flex-direction: row-reverse;
-  }
-
-  .md\:items-center{
-    align-items: center;
-  }
-
-  .md\:justify-center{
-    justify-content: center;
   }
 
   .md\:justify-between{
