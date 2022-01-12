@@ -72,45 +72,98 @@
           /></a>
         </div>
       </div>
+      <!-- Liminet cart sections -->
+      <div>
+        <h2 class="text-4xl font-bold mb-5 text-center">
+          لمینت گذاری به صورت حرفه ای
+        </h2>
+        <p class="text-center font-medium text-3xl">
+          تجربه بیش از 5 سال در طراحی و نصب لمینت به صورت حرفه ای.
+        </p>
+      </div>
       <div
-        class="lamionet md:grid md:grid-cols-2 md:grid-rows-2 start justify-center content-start mx-auto px-5"
+        class="lamionet md:grid md:grid-cols-3 md:gap-x-5 md:grid-rows-1 justify-center flex flex-col items-center mx-auto px-5"
       >
-        <div class="md:col-span-full content-start mb-5">
-          <h2 class="text-4xl font-bold mb-5 text-center">
-            لمینت گذاری به صورت حرفه ای
-          </h2>
-          <p class="text-center font-medium text-3xl">
-            تجربه بیش از 5 سال در طراحی و نصب لمینت به صورت حرفه ای.
-          </p>
-        </div>
-        <div
-          class="grid justify-center content-start border-2 rounded-3xl md:mt-[-10rem] mb-5"
-        >
-          <h2 class="text-4xl font-bold text-center mb-5">کامپوزیتی</h2>
-          <img
-            class="rounded-3xl w-[30rem] h-[20rem]"
-            src="/src/img/composit.jpg"
-            alt=""
-          />
-          <ul class="font-semibold text-2xl mb-2 list-disc">
-            <li>مقرون به صرفه</li>
-            <li>کارایی متوسط</li>
-            <li>راحتی در کار</li>
+        <div class="list-of-abilitis mt-4">
+          <h3 class="text-4xl font-bold md:mt-[-5rem]">قابلیت های لمینت</h3>
+          <ul class="">
+            <li class="text-2xl font-bold flex items-center p-4">
+              <ion-icon class="text-3xl" name="happy-outline"></ion-icon>زیبایی
+              چشمگیر
+            </li>
+            <li class="text-2xl font-bold flex items-center p-4">
+              <ion-icon class="text-3xl" name="color-fill-outline"></ion-icon
+              >بدون تغییر رنگ
+            </li>
+            <li class="text-2xl font-bold flex items-center p-4">
+              <ion-icon class="text-3xl" name="medkit-outline"></ion-icon>امکان
+              ترمیم
+            </li>
+            <li class="text-2xl font-bold flex items-center p-4">
+              <ion-icon class="text-3xl" name="bandage-outline"></ion-icon>کاهش
+              فاصله بین دندانی
+            </li>
+            <li class="text-2xl font-bold flex items-center p-4">
+              <ion-icon class="text-3xl" name="rose-outline"></ion-icon>بدون
+              حساسیت بعد از درمان
+            </li>
           </ul>
         </div>
-        <div
-          class="grid content-start justify-center border-2 rounded-3xl md:mt-[-10rem] mb-5"
-        >
-          <h2 class="text-4xl font-bold text-center mb-5">سرامیکی</h2>
-          <img
-            class="rounded-3xl w-[30rem] h-[20rem]"
-            src="/src/img/ceramic.jpg"
-            alt=""
-          />
-          <ul class="font-semibold text-2xl mb-2 list-disc">
-            <li>گران</li>
-            <li>کارایی بالا</li>
-            <li>زیبایی بیشتر</li>
+        <div class="shadow-sm rounded-3xl shadow-blue-900 mt-4 mb-5">
+          <div class="flex flex-col items-center justify-center">
+            <img
+              class="rounded-3xl inline-block w-full mb-2 h-[20rem]"
+              src="/src/img/composit.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p
+              class="text-2xl mr-4 mb-2 font-semibold bg-fuchsia-400 hover:bg-fuchsia-100 inline-block rounded-full p-1"
+            >
+              کامپوزیتی
+            </p>
+          </div>
+
+          <ul
+            class="flex flex-col justify-center mr-4 font-semibold text-2xl mb-2"
+          >
+            <li class="flex items-center">
+              <ion-icon name="cash-outline"></ion-icon>مقرون به صرفه
+            </li>
+            <li class="flex items-center">
+              <ion-icon name="heart-outline"></ion-icon>کارایی متوسط
+            </li>
+            <li class="flex items-center">
+              <ion-icon name="construct-outline"></ion-icon>راحتی در کار
+            </li>
+          </ul>
+        </div>
+        <div class="shadow-sm shadow-blue-900 rounded-3xl mt-4 mb-5">
+          <div class="flex flex-col items-center justify-center">
+            <img
+              class="rounded-3xl w-full mb-2 h-[20rem]"
+              src="/src/img/ceramic.jpg"
+              alt=""
+            />
+          </div>
+          <p
+            class="mr-4 text-2xl mb-2 font-semibold hover:bg-fuchsia-700 bg-fuchsia-300 inline-block rounded-full p-1"
+          >
+            سرامیکی
+          </p>
+          <ul
+            class="flex flex-col justify-center mr-4 font-semibold text-2xl mb-2"
+          >
+            <li class="flex items-center">
+              <ion-icon name="cash-outline"></ion-icon>گران
+            </li>
+            <li class="flex items-center">
+              <ion-icon name="heart-outline"></ion-icon>کارایی بالا
+            </li>
+            <li class="flex items-center">
+              <ion-icon name="rose-outline"></ion-icon>زیبایی بیشتر
+            </li>
           </ul>
         </div>
       </div>
@@ -186,6 +239,15 @@
           </div>
         </div>
       </section>
+      <section></section>
     </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
