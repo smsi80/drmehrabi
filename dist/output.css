@@ -470,6 +470,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.relative{
+  position: relative;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -581,6 +585,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[70rem\]{
   max-width: 70rem;
+}
+
+.translate-x-full{
+  --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .grid-cols-1{
@@ -882,6 +891,271 @@ html {
 
 body {
   font-family: "Noto Naskh Arabic", serif;
+}
+
+.after\:absolute::after{
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:right-0::after{
+  content: var(--tw-content);
+  right: 0px;
+}
+
+.after\:top-0::after{
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.after\:top-5::after{
+  content: var(--tw-content);
+  top: 1.25rem;
+}
+
+.after\:top-10::after{
+  content: var(--tw-content);
+  top: 2.5rem;
+}
+
+.after\:right-10::after{
+  content: var(--tw-content);
+  right: 2.5rem;
+}
+
+.after\:right-5::after{
+  content: var(--tw-content);
+  right: 1.25rem;
+}
+
+.after\:right-1::after{
+  content: var(--tw-content);
+  right: 0.25rem;
+}
+
+.after\:top-9::after{
+  content: var(--tw-content);
+  top: 2.25rem;
+}
+
+.after\:top-11::after{
+  content: var(--tw-content);
+  top: 2.75rem;
+}
+
+.after\:right-2::after{
+  content: var(--tw-content);
+  right: 0.5rem;
+}
+
+.after\:right-\[-5\]::after{
+  content: var(--tw-content);
+  right: -5;
+}
+
+.after\:right-\[5\]::after{
+  content: var(--tw-content);
+  right: 5;
+}
+
+.after\:right-\[-10px\]::after{
+  content: var(--tw-content);
+  right: -10px;
+}
+
+.after\:right-\[-5px\]::after{
+  content: var(--tw-content);
+  right: -5px;
+}
+
+.after\:top-20::after{
+  content: var(--tw-content);
+  top: 5rem;
+}
+
+.after\:top-\[\]::after{
+  content: var(--tw-content);
+  top: ;
+}
+
+.after\:top-14::after{
+  content: var(--tw-content);
+  top: 3.5rem;
+}
+
+.after\:top-16::after{
+  content: var(--tw-content);
+  top: 4rem;
+}
+
+.after\:right-\[-5rem\]::after{
+  content: var(--tw-content);
+  right: -5rem;
+}
+
+.after\:right-\[-2rem\]::after{
+  content: var(--tw-content);
+  right: -2rem;
+}
+
+.after\:right-\[-3rem\]::after{
+  content: var(--tw-content);
+  right: -3rem;
+}
+
+.after\:right-\[-4rem\]::after{
+  content: var(--tw-content);
+  right: -4rem;
+}
+
+.after\:right-\[-3\.2rem\]::after{
+  content: var(--tw-content);
+  right: -3.2rem;
+}
+
+.after\:right-\[-3\.4rem\]::after{
+  content: var(--tw-content);
+  right: -3.4rem;
+}
+
+.after\:right-\[-3\.5rem\]::after{
+  content: var(--tw-content);
+  right: -3.5rem;
+}
+
+.after\:right-\[-4\.5rem\]::after{
+  content: var(--tw-content);
+  right: -4.5rem;
+}
+
+.after\:z-0::after{
+  content: var(--tw-content);
+  z-index: 0;
+}
+
+.after\:translate-x-full::after{
+  content: var(--tw-content);
+  --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:translate-x-\[50\%\]::after{
+  content: var(--tw-content);
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:translate-y-8::after{
+  content: var(--tw-content);
+  --tw-translate-y: 2rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:translate-y-9::after{
+  content: var(--tw-content);
+  --tw-translate-y: 2.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:translate-y-20::after{
+  content: var(--tw-content);
+  --tw-translate-y: 5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:translate-x-1\/2::after{
+  content: var(--tw-content);
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:rotate-45::after{
+  content: var(--tw-content);
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:overflow-hidden::after{
+  content: var(--tw-content);
+  overflow: hidden;
+}
+
+.after\:rounded-xl::after{
+  content: var(--tw-content);
+  border-radius: 0.75rem;
+}
+
+.after\:bg-red-900::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
+.after\:bg-blue-900::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+}
+
+.after\:px-5::after{
+  content: var(--tw-content);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.after\:px-10::after{
+  content: var(--tw-content);
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.after\:px-20::after{
+  content: var(--tw-content);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.after\:text-center::after{
+  content: var(--tw-content);
+  text-align: center;
+}
+
+.after\:text-xl::after{
+  content: var(--tw-content);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.after\:text-3xl::after{
+  content: var(--tw-content);
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.after\:text-white::after{
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.after\:content-\[\'sina\'\]::after{
+  --tw-content: 'sina';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'s\'\]::after{
+  --tw-content: 's';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'bishtarinnnnn\'\]::after{
+  --tw-content: 'bishtarinnnnn';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\628\6CC\634\62A\631\6CC\646_\62E\631\6CC\62F\'\]::after{
+  --tw-content: 'بیشترین خرید';
+  content: var(--tw-content);
 }
 
 .hover\:bg-slate-700:hover{
